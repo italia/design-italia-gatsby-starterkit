@@ -5,10 +5,16 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react"
-import PropTypes from "prop-types"
-import Helmet from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
+import React from "react";
+import PropTypes from "prop-types";
+import Helmet from "react-helmet";
+import { useStaticQuery, graphql } from "gatsby";
+// Favicons
+import favicon from "../images/favicon.ico";
+import safariPinnedTab from "../images/safari-pinned-tab.svg";
+import favicon32 from "../images/favicon-32x32.png";
+import favicon16 from "../images/favicon-16x16.png";
+import appleTouchIcon from "../images/apple-touch-icon.png";
 
 function SEO({ description, lang, meta, title }) {
   const { site } = useStaticQuery(
@@ -16,29 +22,39 @@ function SEO({ description, lang, meta, title }) {
       query {
         site {
           siteMetadata {
-            title
-            description
+            town {
+              name
+              tagLine
+            }
             author
           }
         }
       }
     `
-  )
+  );
 
-  const metaDescription = description || site.siteMetadata.description
-
+  const metaDescription = description || site.siteMetadata.town.tagLine;
   return (
     <Helmet
       htmlAttributes={{
         lang,
       }}
       title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      titleTemplate={`%s | ${site.siteMetadata.town.name}`}
+      link={[
+        // favicons
+        { rel: "icon", href: favicon },
+        { rel: "mask-icon", href: safariPinnedTab, color: "#0066CC" },
+        { rel: "icon", sizes: "32x32", type: "image/png", href: favicon32 },
+        { rel: "icon", sizes: "16x16", type: "image/png", href: favicon16 },
+        { rel: "apple-touch-icon", href: appleTouchIcon },
+      ]}
       meta={[
         {
           name: `description`,
           content: metaDescription,
         },
+        // Facebook
         {
           property: `og:title`,
           content: title,
@@ -51,6 +67,11 @@ function SEO({ description, lang, meta, title }) {
           property: `og:type`,
           content: `website`,
         },
+        {
+          property: `og:url`,
+          content: `website`,
+        },
+        // Twitter
         {
           name: `twitter:card`,
           content: `summary`,
@@ -69,20 +90,20 @@ function SEO({ description, lang, meta, title }) {
         },
       ].concat(meta)}
     />
-  )
+  );
 }
 
 SEO.defaultProps = {
   lang: `en`,
   meta: [],
   description: ``,
-}
+};
 
 SEO.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
-}
+};
 
-export default SEO
+export default SEO;

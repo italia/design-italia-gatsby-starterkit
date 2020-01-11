@@ -1,48 +1,46 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
+  <a href="https://github.com/italia/design-react-kit">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+    <img alt="Gatsby" src="https://italia.github.io/design-comuni-prototipi/assets/images/icons/logo-comune.svg" height="60" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  Gatsby's Bootstrap Italia starter
 </h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
-
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+Inizia il tuo progetto con questo progetto di base. Questo progetto starter contiene la configurazione Gatsby essenziale per iniziare a costruire il sito usando questo generatore per React.
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+1.  **Crea un sito Gatsby.**
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+    Usa la Gatsby CLI per creare un nuovo sito, specificando questo starter.
 
     ```sh
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
+    # crea un nuovo sito Gatsby usando questo starter
+    gatsby new my-new-website https://github.com/dej611/gatsby-bootstrap-italia-default
     ```
 
-1.  **Start developing.**
+1.  **Inizia a sviluppare.**
 
-    Navigate into your new site’s directory and start it up.
+    Naviga nella cartella del tuo nuovo sito e avvialo.
 
     ```sh
-    cd my-default-starter/
+    cd my-new-website/
     gatsby develop
     ```
 
-1.  **Open the source code and start editing!**
+1.  **Inizia ad adattare il source code!**
 
-    Your site is now running at `http://localhost:8000`!
+    Il tuo nuovo sito è ora disponibile presso `http://localhost:8000`!
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+    _Note: Hai anche un URL secondario: _`http://localhost:8000/___graphql`_. Questo è uno strumento che puoi usare per sperimentare per fare query ai tuoi dati. Se vuoi saperne di più su questo sturmento nella pagina [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+    Apri la cartella `my-new-website` nel tuo editor e inizia a modificare il file `src/pages/index.js`. Salva le tue modifiche ed il browser si aggiornerà in automatico!
 
-## 🧐 What's inside?
+## 🧐 Cosa c'è dentro?
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+Una rapida panoramica dei file e cartelle presenti in un progetto Gatsby.
 
     .
     ├── node_modules
@@ -58,40 +56,45 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
     ├── package.json
     └── README.md
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+1.  **`/node_modules`**: Questa cartella contiene tutti i moduli npm automaticamente installati per far funzionare questo progetto.
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+2.  **`/src`**: In questa cartella sono presenti tutti i file con il codice per la parte front-end del tuo sito.
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+3.  **`.gitignore`**: Questo file istruisce `git` di cosa ignorare, quindi non tenerne traccia.
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+4.  **`.prettierrc`**: Questo è un file di configurazione per [Prettier](https://prettier.io/). Prettier è uno strumento per aiutare a mantenere la formattazione del codice consistente.
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+5.  **`gatsby-browser.js`**: In questo file Gatsby si aspetta di trovare ogni utilizzo della [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (se necessario). Con le configurazioni qui presenti si può personalizzare e/o estendere le impostazioni di Gatsby che riguardano il browser.
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+6.  **`gatsby-config.js`**: Questo è file di configurazione principale per il sito. Qui vengono dichiarate le informazioni per il tuo sito (metadata) come il titolo e/o descrizione del sito, quali lpugin usare e molto di più. (Dai un'occhiata [alla documentazione per questo file](https://www.gatsbyjs.org/docs/gatsby-config/) per maggiori dettagli).
 
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+7.  **`gatsby-node.js`**: Questo file è dove Gatsby si aspetta di trovare ogni utilizzo della  [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (se necessario). Con le configurazioni qui presenti si può personalizzare e/o estendere le impostazioni di Gatsby che riguardano il processo di build.
 
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+8.  **`gatsby-ssr.js`**: Questo file è dove Gatsby si aspetta di trovare ogni utilizzo della [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (se necessario). Con le configurazioni qui presenti si può personalizzare e/o estendere le impostazioni di Gatsby che riguardano il processo di server side rendering.
 
 9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
 
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+10. **`package-lock.json`** (Vedi `package.json` sotto, prima). Questo file viene automaticamente generato con le esatte versioni delle dipendenze npm installate con questo progetto. **(Non cambierai questo file direttamente).**
 
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+11. **`package.json`**: Il file di configurazione principale per i progetti Node.js, che include cose come i metdati (nome del progetto, autore, etc...). Questo file è come npm sa quali moduli/pacchetti installare nel progetto.
 
-12. **`README.md`**: A text file containing useful reference information about your project.
+12. **`README.md`**: Un file di testo contenente informazioni riguardo il progetto.
 
-## 🎓 Learning Gatsby
+## 🎓 Imparare Gatsby
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
+Cerchi più informazioni su Gatsby? La documentazione di Gatsby è disponibile [sul sito](https://www.gatsbyjs.org/). Questi sono alcune risorse per iniziare:
 
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+- **Per molti sviluppatori risulta molto utile seguire il [tutorial completo su Gatsby](https://www.gatsbyjs.org/tutorial/)**.
 
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+## 🎓 Imparare Bootstrap Italia
+
+Cerchi più informazioni su Bootstrap Italia e sul kit React? La documentazione per il "Design React Kit" è disponibile [sul sito](https://github.com/italia/design-react-kit).
+Il Design kit offre un catalogo Storybook con un'ampia documentazione [a questo indirizzo](https://italia.github.io/design-react-kit/?path=/story/introduzione-introduzione--benvenuto).
+
+Le pagine già implementate in questo starter sono basate sui template disponibili [su questa pagina](https://italia.github.io/design-comuni-prototipi/it/kit.html).
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+Vuoi una rapida anteprima di questo progetto? Cliccando sul pulsante qui sono verrà fatto un deployment sulla piattaforma Netlify.
 
-<!-- AUTO-GENERATED-CONTENT:END -->
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/dej611/gatsby-bootstrap-italia-default)
