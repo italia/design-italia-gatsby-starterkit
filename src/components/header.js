@@ -105,8 +105,8 @@ const SlimHeader = ({ theme }) => {
   return (
     <Header type="slim" theme={theme}>
       <HeaderContent>
-        <HeaderBrand>
-          <Link to="/">Ente appartenenza/Owner</Link>
+        <HeaderBrand tag={Link} to='/'>
+          Ente appartenenza/Owner
         </HeaderBrand>
         <HeaderLinkZone>
           <HeaderToggler onClick={() => toggleDropdown(!isOpen)}>
@@ -160,12 +160,10 @@ const CenterHeader = ({ theme, townName, townTagLine }) => {
   return (
     <Header type="center" theme={theme}>
       <HeaderContent>
-        <Link to="/">
-          <HeaderBrand iconName="it-pa">
+          <HeaderBrand iconName="it-pa" tag={Link} to="/">
             <h2>{townName}</h2>
             <h3>{townTagLine}</h3>
           </HeaderBrand>
-        </Link>
         <HeaderRightZone>
           <HeaderSocialsZone label="Seguici su">
             <ul>

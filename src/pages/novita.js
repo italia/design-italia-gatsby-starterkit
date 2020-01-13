@@ -63,16 +63,16 @@ const Novita = ({ location }) => (
               </form>
             </div>
             <div id="filtri-ricerca-amministrazione">
-              <h6 class="small">Filtri</h6>
-              <div class="chip chip-lg">
-                <span class="chip-label">Tutto</span>
+              <h6 className="small">Filtri</h6>
+              <div className="chip chip-lg">
+                <span className="chip-label">Tutto</span>
                 <button>
                   <Icon icon="it-close" />
-                  <span class="sr-only">Elimina label</span>
+                  <span className="sr-only">Elimina label</span>
                 </button>
               </div>
-              <div class="ml-2 d-inline">
-                <button class="btn btn-icon btn-outline-primary btn-sm align-top">
+              <div className="ml-2 d-inline">
+                <button className="btn btn-icon btn-outline-primary btn-sm align-top">
                   <Icon icon="it-plus" color="primary" />
                   <span>Aggiungi filtro</span>
                 </button>
@@ -102,11 +102,11 @@ const Novita = ({ location }) => (
         </Row>
       </Container>
       <section id="in-evidenza">
-        <div class="bg-100 py-5">
+        <div className="bg-100 py-5">
           <Container className="px-4">
             <Row>
               <Col>
-                <h3 class="mb-4 text-primary">In evidenza</h3>
+                <h3 className="mb-4 text-primary">In evidenza</h3>
               </Col>
             </Row>
             <Row>
@@ -183,7 +183,7 @@ const Novita = ({ location }) => (
         </div>
       </section>
       <section>
-        <div class="py-5">
+        <div className="py-5">
           <Container className="px-4">
             <Row>
               <Col>
@@ -222,7 +222,7 @@ const Novita = ({ location }) => (
             </Row>
           </Container>
         </div>
-        <div class="py-5">
+        <div className="py-5">
           <Container className="px-4">
             <Row>
               <Col>
