@@ -15,6 +15,7 @@ import "typeface-roboto-mono";
 import "typeface-lora";
 import Header from "./header";
 import Footer from "./footer";
+import {FontLoader} from 'design-react-kit';
 
 const Layout = ({ children, location }) => {
   const data = useStaticQuery(graphql`
@@ -35,6 +36,7 @@ const Layout = ({ children, location }) => {
 
   return (
     <>
+      <FontLoader />
       <Header location={location} sticky type="default" town={town} />
       <main>{children}</main>
       <Footer town={town} />

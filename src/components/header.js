@@ -42,7 +42,7 @@ function getSectionFullName(section) {
   return section;
 }
 
-function getSectionFromLocation({ pathname }) {
+function getSectionFromLocation({ pathname } = {}) {
   if (pathname === "/") {
     return "";
   }
