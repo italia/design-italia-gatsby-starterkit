@@ -55,6 +55,7 @@ Una rapida panoramica dei file e cartelle presenti in un progetto Gatsby.
     ├── package-lock.json
     ├── package.json
     └── README.md
+    └── README.en.md
 
 1.  **`/node_modules`**: Questa cartella contiene tutti i moduli npm automaticamente installati per far funzionare questo progetto.
 
@@ -72,13 +73,15 @@ Una rapida panoramica dei file e cartelle presenti in un progetto Gatsby.
 
 8.  **`gatsby-ssr.js`**: Questo file è dove Gatsby si aspetta di trovare ogni utilizzo della [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (se necessario). Con le configurazioni qui presenti si può personalizzare e/o estendere le impostazioni di Gatsby che riguardano il processo di server side rendering.
 
-9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
+9.  **`LICENSE`**: Gatsby ha una licenza MIT.
 
 10. **`package-lock.json`** (Vedi `package.json` sotto, prima). Questo file viene automaticamente generato con le esatte versioni delle dipendenze npm installate con questo progetto. **(Non cambierai questo file direttamente).**
 
 11. **`package.json`**: Il file di configurazione principale per i progetti Node.js, che include cose come i metdati (nome del progetto, autore, etc...). Questo file è come npm sa quali moduli/pacchetti installare nel progetto.
 
-12. **`README.md`**: Un file di testo contenente informazioni riguardo il progetto.
+12. **`README.md`**: Un file di testo contenente informazioni riguardo il progetto (questo file).
+
+13. **`README.en.md`**:  Un file di testo contenente informazioni riguardo il progetto (in inglese).
 
 ## 🎓 Imparare Gatsby
 
