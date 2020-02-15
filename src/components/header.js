@@ -114,14 +114,21 @@ const SlimHeader = ({ theme }) => {
             <Icon icon="it-expand" />
           </HeaderToggler>
           <Collapse isOpen={isOpen} header>
-            <Nav inHeader>
-              <NavItem>
-                <Link to="#">Link 1</Link>
-              </NavItem>
-              <NavItem active>
-                <Link to="#">Link 2 Active</Link>
-              </NavItem>
-            </Nav>
+            <LinkList tag="div">
+              <LinkListItem
+                href="#"
+                tag="a"
+              >
+                Link 1
+          </LinkListItem>
+              <LinkListItem
+                active
+                href="#"
+                tag="a"
+              >
+                Link 2 Active
+          </LinkListItem>
+            </LinkList>
           </Collapse>
         </HeaderLinkZone>
         <HeaderRightZone>
@@ -160,10 +167,10 @@ const CenterHeader = ({ theme, townName, townTagLine }) => {
   return (
     <Header type="center" theme={theme}>
       <HeaderContent>
-          <HeaderBrand iconName="it-pa" tag={Link} to="/">
-            <h2>{townName}</h2>
-            <h3>{townTagLine}</h3>
-          </HeaderBrand>
+        <HeaderBrand iconName="it-pa" tag={Link} to="/">
+          <h2>{townName}</h2>
+          <h3>{townTagLine}</h3>
+        </HeaderBrand>
         <HeaderRightZone>
           <HeaderSocialsZone label="Seguici su">
             <ul>
