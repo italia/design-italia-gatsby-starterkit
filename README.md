@@ -98,6 +98,6 @@ Le pagine già implementate in questo starter sono basate sui template disponibi
 
 ## 💫 Deploy
 
-Vuoi una rapida anteprima di questo progetto? Cliccando sul pulsante qui sono verrà fatto un deployment sulla piattaforma Netlify.
+Vuoi una rapida anteprima di questo progetto? Cliccando sul pulsante qui sotto verrà fatto un deployment sulla piattaforma Netlify.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/italia/design-italia-gatsby-starterkit)
