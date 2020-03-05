@@ -18,7 +18,7 @@ Kick off your project with this default boilerplate. This starter ships with the
 
     ```sh
     # crea un nuovo sito Gatsby usando questo starter
-    gatsby new my-new-website https://github.com/dej611/gatsby-bootstrap-italia-starter
+    gatsby new my-new-website https://github.com/italia/design-italia-gatsby-starterkit
     ```
 
 1.  **Start developing.**
@@ -102,4 +102,4 @@ Pages already implemented in this starter kit are based on available templates [
 
 Want a quick preview of this project? Click on this button to deploy on the Netlify platform.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/dej611/gatsby-bootstrap-italia-starter)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/italia/design-italia-gatsby-starterkit)

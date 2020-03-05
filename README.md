@@ -18,7 +18,7 @@ Inizia il tuo progetto con questo progetto di base. Questo progetto starter cont
 
     ```sh
     # crea un nuovo sito Gatsby usando questo starter
-    gatsby new my-new-website https://github.com/dej611/gatsby-bootstrap-italia-starter
+    gatsby new my-new-website https://github.com/italia/design-italia-gatsby-starterkit
     ```
 
 1.  **Inizia a sviluppare.**
@@ -98,6 +98,6 @@ Le pagine già implementate in questo starter sono basate sui template disponibi
 
 ## 💫 Deploy
 
-Vuoi una rapida anteprima di questo progetto? Cliccando sul pulsante qui sono verrà fatto un deployment sulla piattaforma Netlify.
+Vuoi una rapida anteprima di questo progetto? Cliccando sul pulsante qui sotto verrà fatto un deployment sulla piattaforma Netlify.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/dej611/gatsby-bootstrap-italia-starter)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/italia/design-italia-gatsby-starterkit)
