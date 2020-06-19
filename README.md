@@ -67,7 +67,7 @@ Una rapida panoramica dei file e cartelle presenti in un progetto Gatsby.
 
 5.  **`gatsby-browser.js`**: In questo file Gatsby si aspetta di trovare ogni utilizzo della [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (se necessario). Con le configurazioni qui presenti si può personalizzare e/o estendere le impostazioni di Gatsby che riguardano il browser.
 
-6.  **`gatsby-config.js`**: Questo è file di configurazione principale per il sito. Qui vengono dichiarate le informazioni per il tuo sito (metadata) come il titolo e/o descrizione del sito, quali lpugin usare e molto di più. (Dai un'occhiata [alla documentazione per questo file](https://www.gatsbyjs.org/docs/gatsby-config/) per maggiori dettagli).
+6.  **`gatsby-config.js`**: Questo è file di configurazione principale per il sito. Qui vengono dichiarate le informazioni per il tuo sito (metadata) come il titolo e/o descrizione del sito, quali plugin usare e molto di più. (Dai un'occhiata [alla documentazione per questo file](https://www.gatsbyjs.org/docs/gatsby-config/) per maggiori dettagli).
 
 7.  **`gatsby-node.js`**: Questo file è dove Gatsby si aspetta di trovare ogni utilizzo della  [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (se necessario). Con le configurazioni qui presenti si può personalizzare e/o estendere le impostazioni di Gatsby che riguardano il processo di build.
 
