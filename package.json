@@ -8,8 +8,8 @@
     "Marco Liberati"
   ],
   "dependencies": {
-    "bootstrap-italia": "1.4.1",
-    "design-react-kit": "3.3.1",
+    "bootstrap-italia": "1.4.3",
+    "design-react-kit": "4.0.2",
     "gatsby": "^2.18.18",
     "gatsby-image": "^2.2.17",
     "gatsby-plugin-manifest": "^2.2.14",
