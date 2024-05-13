@@ -8,8 +8,8 @@
     "Marco Liberati"
   ],
   "dependencies": {
-    "bootstrap-italia": "1.4.1",
-    "design-react-kit": "3.3.1",
+    "bootstrap-italia": "1.4.3",
+    "design-react-kit": "4.0.2",
     "gatsby": "^2.18.18",
     "gatsby-image": "^2.2.17",
     "gatsby-plugin-manifest": "^2.2.14",
@@ -27,6 +27,7 @@
     "typeface-titillium-web": "0.0.72"
   },
   "devDependencies": {
+    "browserslist-config-design-italia": "^1.0.0",
     "prettier": "^1.18.2"
   },
   "keywords": [
@@ -47,5 +48,8 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
-  }
+  },
+  "browserslist": [
+    "extends browserslist-config-design-italia"
+  ]
 }
